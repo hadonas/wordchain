@@ -5,20 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="./js/script.js"></script>
-    <link src="./css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Noto+Sans+KR:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./css/style.css" rel="stylesheet" />
     <title>끝말잇기</title>
   </head>
   <body>
-    <div class="content">
-      <h2>끝말잇기 게임</h2>
-      <div class="input_word">
-        게임 만들기
-        <br />
-        <input id="word" placeholder="첫번째 단어" />
-        <button id="submit">만들기</button>
+    <header>
+      <a href=""><div class="logo">KKEUTU</div></a>
+      <div class="gamemake-button">게임 만들기</div>
+    </header>
+    <div class="container">
+      <div class="game-list">
+        <div class="title">게임 목록</div>
+        <div class="game">
+          <div class="num-title-container">
+            <span class="game-num">1</span>
+            <span class="game-title">게임 제목</span>
+          </div>
+          <div class="game-people">2/4</div>
+        </div>
+        <div class="game">
+          <div class="num-title-container">
+            <span class="game-num">1</span>
+            <span class="game-title">게임 제목</span>
+          </div>
+          <div class="game-people">2/4</div>
+        </div>
+        <div class="game">
+          <div class="num-title-container">
+            <span class="game-num">1</span>
+            <span class="game-title">게임 제목</span>
+          </div>
+          <div class="game-people">2/4</div>
+        </div>
       </div>
-      <ol class="scrollbox"></ol>
     </div>
   </body>
 </html>

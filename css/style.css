@@ -1,8 +1,63 @@
-.scrollbox {
-  overflow: auto;
-  text-align: center;
+body {
+  margin: 0;
+  padding-top: calc(10vh);
+}
+.game-num::after {
+  content: "|";
+}
+.gamemake-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  border-radius: 30px;
+  padding: 10px 40px;
+  font-family: "Noto Sans KR";
+  font-size: 1.5rem;
+}
+header {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px 5%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  font-family: "Inter";
+  font-size: 2.5rem;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
 
-body {
-  position: relative;
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+.title {
+  font-family: "Noto Sans KR";
+  font-size: 2rem;
+}
+.game {
+  font-family: "Noto Sans KR";
+  font-size: 1.3rem;
+  border-radius: 20px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #d9d9d9;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.game-people {
+  font-family: none;
+  display: flex;
+  align-items: center;
 }
